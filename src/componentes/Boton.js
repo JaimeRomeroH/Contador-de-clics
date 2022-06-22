@@ -5,7 +5,7 @@ function Boton({texto, esBotonDeClic, manejarClic}){
       <button 
        className={esBotonDeClic ? "boton-clic" : "boton-reiniciar"}
        onClick={manejarClic}>
-        {texto}
+       {texto}
       </button>
     );
 }
