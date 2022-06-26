@@ -1,6 +1,8 @@
 import './App.css';
 import logo from "./imagenes/app-logo.jpg";
 import Boton from './componentes/Boton';
+import Contador from './componentes/Contador';
+
 
 function App() {
   const manejarClic = () =>{
@@ -19,6 +21,7 @@ function App() {
          alt="Logo"/>
       </div>
       <div className="contador-principal">
+         <Contador numClics={5} />
          <Boton
            texto="Clic"
            esBotonDeClic={true}
