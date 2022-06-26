@@ -20,7 +20,7 @@ function App() {
          src={logo}
          alt="Logo"/>
       </div>
-      <div className="contador-principal">
+      <div className="contenedor-principal">
          <Contador numClics={5} />
          <Boton
            texto="Clic"
